@@ -1,13 +1,18 @@
 
 button{margin-top: 20px;
-    text-align:center; color: whitesmoke;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-image: linear-gradient(to bottom, rgb(82, 62, 207), rgb(39, 8, 237));border-style: hidden; width: 225px; height: 43px; border-radius:30px;}
+    text-align:center; color: whitesmoke;font-family:monospace;background-image: linear-gradient(to bottom, rgb(82, 62, 207), rgb(39, 8, 237));border-style: hidden; width: 225px; height: 43px; border-radius:30px;}
 /*div{margin-top: 7px;}   background-color: white;*/
 
-    h1{font-size: 100%;}
+    h1{font-size: 100%; color: #ffffff9c;}
 
-h3{font-size: 50%;}
-h4{font-size:200%;}
-h5{font-size:60%; padding-left: 10%; padding-right: 10%;}
+h3{font-size: 50%; }
+h4{font-family: sans-serif;
+    font-size: 25px;}
+h5{color: #ffffffb5;
+    font-weight: 400;
+    font-size: 69%;
+    padding-left: 10%;
+    padding-right: 10%;}
   
 
 main{display: inline-flex; /*width:370px; */margin-top: 10%; margin-left: 15%;}
@@ -21,7 +26,8 @@ main{display: inline-flex; /*width:370px; */margin-top: 10%; margin-left: 15%;}
 .attribution { font-size: 11px; text-align: center; padding-top: 30px;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@font-face {
-    font-family:'Font';
-    src: url(C:\Projects\results-summary-component-main\assets\fonts\HankenGrotesk-VariableFont_wght.ttf);
-}
+/*@font-face {
+    font-family: myfont;
+    src: url(assets\fonts\static\HankenGrotesk-ExtraBold.ttf);
+}*/
+
